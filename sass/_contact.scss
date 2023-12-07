@@ -1,0 +1,50 @@
+.main {
+ display: flex;
+ align-items: center;
+  padding: 50px 90px;
+
+  .left{
+    width: 800px;
+
+    .text-title{
+      font-size: 50px;
+    }
+  }
+  form {
+      display: grid;
+      gap: 1em;
+
+      label {
+          display: block;
+          font-weight: bold;
+      }
+
+      input,
+      textarea {
+          width: 100%;
+          padding: 0.5em;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+      }
+
+      button {
+          background-color: #3498db;
+          color: #fff;
+          padding: 0.5em 1em;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+      }
+  }
+  .right{
+ 
+    position: relative;
+    left: 200px;
+    background-color: rgb(71, 94, 71);
+  
+    .img-content{
+      width: 100%;
+
+    }
+  }
+}

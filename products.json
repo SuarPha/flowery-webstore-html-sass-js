@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Monstera Deliciosa",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1637967885705-a60e3fea266d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80",
+        "price": 699
+    },
+    {
+        "id": 2,
+        "name": "Flawil",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1610630876605-97b3e670f56c?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 299
+    },
+    {
+        "id": 3,
+        "name": "Zamioculcas zamiifolia",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1614594895304-fe7116ac3b58?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    },
+    {
+        "id": 4,
+        "name": "Polyscias ming bonsai",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1637967885705-a60e3fea266d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80",
+        "price": 699
+    },
+    {
+        "id": 5,
+        "name": "Bonsai tree",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1467043198406-dc953a3defa0?auto=format&fit=crop&q=80&w=1929&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    },
+    {
+        "id": 6,
+        "name": "Svizzera",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1615213612138-4d1195b1c0e7?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 499
+    },
+    {
+        "id": 7,
+        "name": "Gefleckte efeutute",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1612363148951-15f16817648f?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    },
+    {
+        "id": 8,
+        "name": "Philodendron",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1609142621730-db3293839541?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhpbG9kZW5kcm9ufGVufDB8fDB8fHww",
+        "price": 799
+    },
+    {
+        "id": 9,
+        "name": "Ufopflanze",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1610630876605-97b3e670f56c?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    },
+    {
+        "id": 10,
+        "name": "Monstera Deliciosa",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1612189119321-5b8d2bc94a60?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 899
+    },
+    {
+        "id": 11,
+        "name": "Zeylanica",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1620127252536-03bdfcf6d5c3?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 599
+    },
+    {
+        "id": 12,
+        "name": "Moonshine",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1615389709015-c025520f97fc?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    },
+
+    {
+        "id": 13,
+        "name": "asplenium nidus",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1615213739532-61ee9d0120a7?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 799
+    },
+
+    {
+        "id": 14,
+        "name": "Maui Queen",
+        "desc": "The Swiss Cheese Plant",
+        "img": "https://images.unsplash.com/photo-1611588696789-9b58977ebab1?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 699
+    }
+]
