@@ -4,6 +4,7 @@
 @import "./contact.scss";
 
 
+
 $primary-color: #091916;
 $secondary-color: #2b573a ;
 $bg-color: #f0f0f0;
@@ -45,22 +46,25 @@ hr{
   cursor: pointer;
   outline: none;
   background-color: transparent;
-  border: 1px solid $button-color;
-  background-color: #416357;
-  color: $white;
-  font-size: 1em;
-  padding: 1rem;
-  border-radius: 20px;
-  width: 200px;
-
+  border: 1px solid  $button-color;
+  background-color: #dadada;
+  color: $dark;
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 5rem;
+  border-radius: 15px;
+  width: 160px;
+  letter-spacing: 3px;
   &:hover{
     opacity: 0.9;
     
   }
-
+  ::shadow{
+    box-shadow: 3px 3px 7px rgba(0,0,0,.4);
+  }
 }
 .header{
-   
     align-items: center;
     justify-content: space-around;
     background-color: $bg-color;
@@ -120,8 +124,8 @@ hr{
     position: relative;
 
     .hero-img{
-        max-width: 100%;
-        //height: 50vh;
+        width: 100%;
+        height: 80vh;
      
     }
     .hero-text {
@@ -332,11 +336,11 @@ hr{
           background-color: $button-color;
           color: #eee;
           padding: 5px 10px;
-          border-radius: 20px;
+          border-radius: 15px;
           margin-top: 10px;
           border: none;
           cursor: pointer;
-
+          width: 110px;
           &:hover{
             opacity: 0.9;
 
@@ -506,6 +510,12 @@ hr{
 
   //Footer  Section //
  .footer-container{
+ 
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -516,7 +526,8 @@ hr{
         padding: 2.5rem;
         display: flex;
         justify-content: space-between;
-
+        margin: 3rem;
+        
         .footer-logo{
           color:#2c2c2c;
           display: flex;

@@ -56,8 +56,7 @@
 #image-container img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
@@ -168,15 +167,21 @@ hr {
   outline: none;
   background-color: transparent;
   border: 1px solid #416357;
-  background-color: #416357;
-  color: white;
-  font-size: 1em;
-  padding: 1rem;
-  border-radius: 20px;
-  width: 200px;
+  background-color: #dadada;
+  color: #333;
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 5rem;
+  border-radius: 15px;
+  width: 160px;
+  letter-spacing: 3px;
 }
 .btnShop:hover {
   opacity: 0.9;
+}
+.btnShop ::shadow {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
 }
 
 .header {
@@ -231,7 +236,8 @@ hr {
   position: relative;
 }
 .hero-container .hero-img {
-  max-width: 100%;
+  width: 100%;
+  height: 80vh;
 }
 .hero-container .hero-text {
   text-align: center;
@@ -302,8 +308,7 @@ hr {
 }
 .card img {
   position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   top: 0;
@@ -408,10 +413,11 @@ hr {
   background-color: #416357;
   color: #eee;
   padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-top: 10px;
   border: none;
   cursor: pointer;
+  width: 110px;
 }
 .listProducts .item .addCart:hover {
   opacity: 0.9;
@@ -536,11 +542,15 @@ hr {
 .gellery-container .gallery-wrapper .gellery img {
   width: 300px;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer-container {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -550,6 +560,7 @@ hr {
   padding: 2.5rem;
   display: flex;
   justify-content: space-between;
+  margin: 3rem;
 }
 .footer-container .footer-content .footer-logo {
   color: #2c2c2c;
